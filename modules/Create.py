@@ -1,6 +1,5 @@
 import pickle
 import os
-from py_compile import main
 
 def create_laptop():
 
@@ -9,7 +8,7 @@ def create_laptop():
     print("==============================\n")
     
     
-    pickle_path = 'inventory.pkl'
+    pickle_path = 'data/inventory.pkl'
 
     # Load existing data or create new structure
     if os.path.exists(pickle_path):
